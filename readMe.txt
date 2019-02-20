@@ -71,6 +71,6 @@ Expects IllegalArgumentException, informs that the rover cannot go East because 
 Use the following data (xSuperior=5; ySuperior=5; x=1; y=2; direcao=S; instrucoes="LMLMLMLMMMMM") to trespass x.  
 Expects IllegalArgumentException, informs that the rover cannot go South because will trespass x.
 
-- testarUltrapassandoNorte:
+- testarUltrapassandoOeste:
 Use the following data (xSuperior=5; ySuperior=5; x=1; y=2; direcao=W; instrucoes="LMLMLMLMMMMM") to trespass y. 
 Expects IllegalArgumentException, informs that the rover cannot go West because will trespass y.
